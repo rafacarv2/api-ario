@@ -1,6 +1,7 @@
-
 ### Prerequisitos
+
 Executar os comandos no terminal:
+
 * Instalar o sail
 
     ```sh
@@ -15,7 +16,19 @@ Executar os comandos no terminal:
 
 * Instanciar os containers do docker via sail
   ```sh
-  ./vendor/bin/sail up 
+  cp .env.example .env
+  ```
+
+
+* Instanciar os containers do docker via sail
+  ```sh
+  ./vendor/bin/sail up -d
+  ```
+
+
+* Instanciar os containers do docker via sail
+  ```sh
+  ./vendor/bin/sail php artisan key:generate
   ```
 
 
